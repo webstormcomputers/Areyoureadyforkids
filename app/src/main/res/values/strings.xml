@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Are you ready for kids?</string>
+    <string name="welcome_to">In honor of the fact that my wife and I are expecting another baby. This quiz is to help you decide if you should have a child, or more children. This is intended to be light hearted; try not to take it too serious. Please start by typing your name in the box below.</string>
+    <string name="your_name_here">Your Name Here</string>
+    <string name="when_you_see_other_people_s_kids_do_you">When you see other people\'s kids do you think....</string>
+    <string name="what_size_diapers_will_you_need_the_first_year">What size diapers will you need the first year?</string>
+    <string name="newborn">Newborn</string>
+    <string name="size1">Size1</string>
+    <string name="size2">Size 2</string>
+    <string name="all_of_them">Size 4</string>
+    <string name="no_worries_it_will_be_clean_when_they_move_out">No worries, it will be clean when they move out.</string>
+    <string name="i_can_t_stand_this_burn_it_all_down">I can\'t stand this, burn it all down!</string>
+    <string name="being_able_to_find_your_kids_is_important_how_many_kids_do_you_see_in_this_picture">Being able to find your kids is important. How many kids do you see in this picture?</string>
+    <string name="that_s_all_the_questions_click_submit_to_get_your_result">That\'s all the questions, click submit to get your result.</string>
+</resources>
