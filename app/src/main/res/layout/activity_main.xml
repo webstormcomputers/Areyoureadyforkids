@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.webstormcomputers.areyoureadyforkids.MainActivity">
-
-    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:context="com.webstormcomputers.areyoureadyforkids.MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
             android:paddingLeft="16dp"
             android:paddingTop="16dp"
-            android:orientation="vertical"
-            >
+            android:paddingEnd="16dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="16dp"
                 android:text="@string/welcome_to"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/userName"
@@ -38,14 +34,14 @@
                 android:paddingTop="16dp"
                 android:scaleType="centerCrop"
 
-                android:src="@drawable/lotsofkids" />
+                android:src="@drawable/lotsofkids"
+                android:contentDescription="@string/picture_of_random_kids" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="16dp"
-                android:text="@string/when_you_see_other_people_s_kids_do_you"
-                />
+                android:text="@string/when_you_see_other_people_s_kids_do_you" />
 
             <RadioGroup
                 android:id="@+id/othersKids"
@@ -57,121 +53,126 @@
                     android:id="@+id/othersKidsAns1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="AWWWWWWWWW!!!! They're cute." />
+                    android:text="@string/awwwwwwwww_they_re_cute" />
 
                 <RadioButton
                     android:id="@+id/othersKidsAns2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="EWWWW... evil vermin!" />
+                    android:text="@string/ewwww_evil_vermin" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="16dp"
-                android:text="@string/what_size_diapers_will_you_need_the_first_year"/>
+                android:text="@string/what_size_diapers_will_you_need_the_first_year" />
 
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/diapers1"
-                android:text="@string/newborn"
-                android:layout_marginTop="16dp"/>
-
-            <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/diapers2"
-                android:text="@string/size1"
                 android:layout_marginTop="16dp"
-                />
+                android:text="@string/newborn" />
 
             <CheckBox
+                android:id="@+id/diapers2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/size1" />
+
+            <CheckBox
                 android:id="@+id/diapers3"
-                android:text="@string/size2"
-                android:layout_marginTop="16dp"/>
-
-            <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/size2" />
+
+            <CheckBox
                 android:id="@+id/diapers4"
-                android:text="@string/all_of_them"
-                android:layout_marginTop="16dp"                />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/all_of_them" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/being_able_to_find_your_kids_is_important_how_many_kids_do_you_see_in_this_picture"
                 android:paddingTop="16dp"
-                />
+                android:text="@string/being_able_to_find_your_kids_is_important_how_many_kids_do_you_see_in_this_picture" />
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="250dp"
+                android:paddingTop="16dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/kidstrees"
-                android:paddingTop="16dp"/>
+                android:contentDescription="@string/kids_hiding_behind_trees" />
+
             <EditText
+                android:id="@+id/numOfKids"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="16dp"
-                android:id="@+id/numOfKids"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:paddingTop="16dp" />
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="250dp"
+                android:paddingTop="16dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/clutter"
+                android:contentDescription="@string/children_s_clutter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:paddingTop="16dp"
-                />
+                android:text="@string/when_you_see_this_what_do_you_think" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="When you see this what do you think?"
-                android:paddingTop="16dp"/>
             <RadioGroup
+                android:id="@+id/radClutterGrp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:id="@+id/radClutterGrp">
+                android:layout_marginTop="16dp">
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:id="@+id/clutter1"
-                    android:text="@string/no_worries_it_will_be_clean_when_they_move_out"/>
-
-                <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="@string/no_worries_it_will_be_clean_when_they_move_out" />
+
+                <RadioButton
                     android:id="@+id/clutter2"
-                    android:text="@string/i_can_t_stand_this_burn_it_all_down"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/i_can_t_stand_this_burn_it_all_down" />
             </RadioGroup>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/that_s_all_the_questions_click_submit_to_get_your_result"
-                android:paddingTop="16dp"/>
+                android:paddingTop="16dp"
+                android:text="@string/that_s_all_the_questions_click_submit_to_get_your_result" />
+
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Submit"
-                android:onClick="calc_score"
                 android:id="@+id/submit"
-                android:layout_marginTop="16dp"/>
-            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Reset"
+                android:onClick="calc_score"
+                android:text="@string/submit" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:onClick="reset_score"
-                android:visibility="gone"
-                android:id="@+id/reset"/>
+                android:text="@string/reset"
+                android:visibility="gone" />
 
         </LinearLayout>
     </ScrollView>
-</LinearLayout>

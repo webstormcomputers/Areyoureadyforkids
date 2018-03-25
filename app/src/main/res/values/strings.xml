@@ -12,4 +12,12 @@
     <string name="i_can_t_stand_this_burn_it_all_down">I can\'t stand this, burn it all down!</string>
     <string name="being_able_to_find_your_kids_is_important_how_many_kids_do_you_see_in_this_picture">Being able to find your kids is important. How many kids do you see in this picture?</string>
     <string name="that_s_all_the_questions_click_submit_to_get_your_result">That\'s all the questions, click submit to get your result.</string>
+    <string name="picture_of_random_kids">picture of random kids</string>
+    <string name="awwwwwwwww_they_re_cute">AWWWWWWWWW!!!! They\'re cute.</string>
+    <string name="ewwww_evil_vermin">EWWWW... evil vermin!</string>
+    <string name="kids_hiding_behind_trees">Kids hiding behind trees</string>
+    <string name="children_s_clutter">Children\'s clutter</string>
+    <string name="when_you_see_this_what_do_you_think">When you see this what do you think?</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
 </resources>
