@@ -17,6 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:paddingTop="16dp"
                 android:text="@string/welcome_to"
                 android:textSize="20sp" />
@@ -25,6 +26,7 @@
                 android:id="@+id/userName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:hint="@string/your_name_here"
                 android:paddingTop="16dp" />
 
@@ -40,6 +42,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:paddingTop="16dp"
                 android:text="@string/when_you_see_other_people_s_kids_do_you" />
 
@@ -53,18 +56,21 @@
                     android:id="@+id/othersKidsAns1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/LoveYaLikeASister"
                     android:text="@string/awwwwwwwww_they_re_cute" />
 
                 <RadioButton
                     android:id="@+id/othersKidsAns2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/LoveYaLikeASister"
                     android:text="@string/ewwww_evil_vermin" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:paddingTop="16dp"
                 android:text="@string/what_size_diapers_will_you_need_the_first_year" />
 
@@ -74,6 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:text="@string/newborn" />
 
             <CheckBox
@@ -81,6 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:text="@string/size1" />
 
             <CheckBox
@@ -88,6 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:text="@string/size2" />
 
             <CheckBox
@@ -95,11 +104,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:text="@string/all_of_them" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:paddingTop="16dp"
                 android:text="@string/being_able_to_find_your_kids_is_important_how_many_kids_do_you_see_in_this_picture" />
 
@@ -115,6 +126,7 @@
                 android:id="@+id/numOfKids"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:inputType="number"
                 android:paddingTop="16dp" />
 
@@ -129,6 +141,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:paddingTop="16dp"
                 android:text="@string/when_you_see_this_what_do_you_think" />
 
@@ -142,18 +155,21 @@
                     android:id="@+id/clutter1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/LoveYaLikeASister"
                     android:text="@string/no_worries_it_will_be_clean_when_they_move_out" />
 
                 <RadioButton
                     android:id="@+id/clutter2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/LoveYaLikeASister"
                     android:text="@string/i_can_t_stand_this_burn_it_all_down" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/LoveYaLikeASister"
                 android:paddingTop="16dp"
                 android:text="@string/that_s_all_the_questions_click_submit_to_get_your_result" />
 
